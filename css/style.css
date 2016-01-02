@@ -1,0 +1,167 @@
+/*
+Project Name: HTML Template
+Client: Your Client
+Author: Your Name
+Developer: @poopsplat in Chicago
+*/
+
+/******************************************
+/* SETUP
+/*******************************************/
+/* Box Model Hack: http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+/* Micro clearfix hack: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  color: black;
+  font-size: 16px;
+  background: white;
+  font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #00B5BD;
+}
+
+h1 {
+	font-family: 'Bangers', cursive;
+	color: #00B5BD;
+	margin: 0;
+	letter-spacing: .05em;
+	padding: 20px 0;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+p {
+	margin: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/*Header*/
+.header {
+	background-color: #272A32;
+}
+
+.header-wrapper {
+	padding: 30px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.logo,
+.nav {
+	display: inline-block;
+} 
+
+.logo{
+	color: #00B5BD;
+	font-size: 40px;
+	letter-spacing: .1em;
+	font-family: 'Bangers', cursive;
+}
+
+.nav {
+	float: right;
+}
+
+.header ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.header li {
+	color: #E6E6E6;
+	font-size: 20px;
+	display: inline;
+	font-weight: 600;
+	margin-right: 20px;
+	font-style: italic;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header li:hover {
+	cursor: pointer;
+	border-bottom: 4px solid #00B5BD;
+}
+
+/*Main*/
+.reel-wrapper {
+	height: 600px;
+	margin: 0 auto;
+	background-color: #121317;
+	text-align: center;
+}
+
+.still-wrapper {
+	height: 600px;
+	margin: 0 auto;
+	background-color: #E6E6E6;
+	text-align: center;
+}
+
+.breaker {
+	background-color: #25505F;
+	height: 5px;
+}
+
+/*footer*/
+.footer {
+	background-color: #272A32;
+	font-family: 'Open Sans', sans-serif; 
+	color: #E6E6E6;
+	padding: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
